@@ -54,6 +54,18 @@
         .profile:hover h2, .profile:hover p {
             color: #ff4500; /* Warna teks berubah saat hover */
         }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
@@ -86,7 +98,14 @@
         <h2>Komunitas Teknik Informatika</h2>
         <p>SMK Negeri 3 Jepara</p>
     </div>
+
+    <!-- Gallery Section -->
+    <div class="gallery">
+        <img src="glr.jpeg" alt="Gallery Image 1">
+        <img src="glr.jpeg" alt="Gallery Image 2">
+        <img src="glr.jpeg" alt="Gallery Image 3">
+        <!-- Add more images here -->
+    </div>
 </div>
 
-</body>
-</html>
+</body
